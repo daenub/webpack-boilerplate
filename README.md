@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) ![David](https://img.shields.io/david/dev/taniarascia/webpack-boilerplate)
 
-Minimal Webpack 4 boilerplate with Babel, Sass, ESLint, Hot Module Replacement, and development/production optimization.
+Minimal Webpack 4 boilerplate with Babel, Sass, ESLint, Prettier, Hot Module Replacement, and development/production optimization.
 
 ## Installation
 
@@ -27,7 +27,7 @@ yarn build
 
 ### Deploy to GitHub Pages
 
-This command will commit and push the content of the dist folder to the gh-pages branch
+This command will commit and push the content of the dist folder to the gh-pages branch.
 
 ```bash
 yarn deploy
