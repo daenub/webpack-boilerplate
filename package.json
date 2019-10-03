@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
-    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js"
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Dan Büschlen <danbueschlen@gmail.com>",
   "license": "MIT",
@@ -25,6 +26,7 @@
     "eslint-loader": "^3.0.0",
     "eslint-plugin-prettier": "^3.1.1",
     "file-loader": "^4.2.0",
+    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",

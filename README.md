@@ -7,8 +7,8 @@ Minimal Webpack 4 boilerplate with Babel, Sass, ESLint, Hot Module Replacement, 
 ## Installation
 
 ```
-git clone git@github.com:taniarascia/webpack-boilerplate
-npm i
+git clone git@github.com:daenub/webpack-boilerplate
+yarn
 ```
 
 ## Usage
@@ -16,13 +16,21 @@ npm i
 ### Development server
 
 ```bash
-npm start
+yarn start
 ```
 
 ### Production build
 
 ```bash
-npm run build
+yarn build
+```
+
+### Deploy to GitHub Pages
+
+This command will commit and push the content of the dist folder to the gh-pages branch
+
+```bash
+yarn deploy
 ```
 
 ## Features
@@ -77,6 +85,7 @@ npm run build
 ## Author
 
 - [Tania Rascia](https://www.taniarascia.com)
+- Dan Büschlen
 
 ## License
 
